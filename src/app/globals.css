@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .group-hover .text-5xl {
+    transform: translateY(8px);
+  }
+  
+   .group-hover img {
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  
+  img {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  #about {
+    padding: 2rem;
+    text-align: center;
+  }
+  /* about style
+ */
+  #about h2 {
+    margin-bottom: 1rem;
+  }
+  
+  #about p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .hover-bg-effect {
+    transition: background 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .hover-bg-effect:hover {
+    background: linear-gradient(135deg, #1f2937, #2d3748);
+    transform: scale(1.05);
+  }
+
+  .relative.inline-block {
+    width: max-content;
+    position: relative;
+  }
+  .relative.inline-block:hover .custom-hover {
+    transform: translate(-4px, -4px);
+    opacity: 100%;
+  }
+  
+  .relative.inline-block:hover .custom-bg {
+    opacity: 1;
+    transform: translate(4px, 4px);
+  }
+
+  .custom-hover,
+  .custom-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+  }
+
+  .custom-hover{
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .custom-bg{
+    z-index: 0;
+  }
+  
+
+
