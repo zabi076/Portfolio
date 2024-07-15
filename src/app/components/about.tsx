@@ -13,10 +13,10 @@ export default function About() {
         
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-gray-300 text-lg">
-            Hi, I'm Zohaib Ismail, a front-end developer with a passion for
+            Hi, I am Zohaib Ismail, a front-end developer with a passion for
             creating beautiful and functional web applications. I specialize in
             using modern technologies like React and Next.js to build responsive
-            and user-friendly interfaces. I'm constantly learning and evolving
+            and user-friendly interfaces. I am constantly learning and evolving
             my skills to stay updated with the latest trends in web development.
           </p>
         </div>

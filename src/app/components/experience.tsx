@@ -8,7 +8,7 @@ export default function Experience() {
     >
       <div className="max-w-4xl px-4 w-full">
         <h2 className="text-4xl font-bold text-cyan-400 mb-12 text-center">
-          WHERE I'VE WORKED
+          {"WHERE I'VE WORKED"}
         </h2>
 
         <div className="flex flex-col md:flex-row">
@@ -32,7 +32,7 @@ export default function Experience() {
             <p className="text-gray-400 text-lg leading-relaxed">
               I am currently thriving as an Intern and Front-End Developer at
               Hexler Tech, a dynamic and innovative tech company. In this
-              vibrant startup environment, I'm gaining invaluable hands-on
+              vibrant startup environment, I am gaining invaluable hands-on
               experience in modern web development. My role involves crafting
               responsive and intuitive user interfaces using cutting-edge
               technologies like React and Next.js, while also honing my skills
